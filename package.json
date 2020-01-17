@@ -6,6 +6,7 @@
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.10",
     "@sumup/circuit-ui": "^1.6.0",
+    "@reach/router": "^1.2.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^8.0.0",
     "@testing-library/user-event": "^7.1.2",
@@ -13,6 +14,7 @@
     "jest-emotion": "^10.0.11",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-google-login": "^5.0.7",
     "react-scripts": "3.3.0"
   },
   "scripts": {
@@ -39,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@sumup/foundry": "^2.0.0-beta.5",
+    "@sumup/foundry": "^1.7.0",
     "jest-dom": "^3.4.0",
     "prop-types": "^15.7.2"
   }
