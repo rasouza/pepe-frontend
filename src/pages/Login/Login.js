@@ -34,7 +34,7 @@ function Login() {
 
   return (
     <Container>
-      <Logo />
+      <Logo id="sumup-logo" />
       <LoginCard>
         <Heading size={Heading.KILO}>Pepe</Heading>
         <Text>Please sign in</Text>

@@ -6,7 +6,8 @@ import { Router } from '@reach/router';
 import { ROUTES_PATH } from './constants/routes';
 
 import Login from './pages/Login';
-import Home from './pages/Home.js';
+import Home from './pages/Home';
+import ProtectedRoute from './components/ProtectedRoute';
 
 const NotFound = () => <div>Sorry, nothing here.</div>;
 
@@ -23,8 +24,8 @@ const App = () => (
     />
     <Header title="PEPE" />
     <Router>
-      <Home path="/" />
       <Login path={ROUTES_PATH.LOGIN} />
+      <ProtectedRoute component={Home} path={ROUTES_PATH.HOME} />
       <NotFound default />
     </Router>
   </ThemeProvider>
