@@ -15,24 +15,24 @@ RUN ["yarn", "install"]
 COPY . .
 
 # Lints the code
-FROM node:$NODE_VERSION as linting
+# FROM node:$NODE_VERSION as linting
 
-ARG APP_DIR
-WORKDIR $APP_DIR
+# ARG APP_DIR
+# WORKDIR $APP_DIR
 
-COPY --from=builder $APP_DIR/ .
+# COPY --from=builder $APP_DIR/ .
 
-RUN ["yarn", "lint"]
+# RUN ["yarn", "lint"]
 
-# Unit tests
-FROM node:$NODE_VERSION as unit-testing
+# # Unit tests
+# FROM node:$NODE_VERSION as unit-testing
 
-ARG APP_DIR
-WORKDIR $APP_DIR
+# ARG APP_DIR
+# WORKDIR $APP_DIR
 
-COPY --from=builder $APP_DIR/ .
+# COPY --from=builder $APP_DIR/ .
 
-RUN ["yarn", "test", "--watchAll", "false"]
+# RUN ["yarn", "test", "--watchAll", "false"]
 
 # Build the app
 FROM node:$NODE_VERSION-alpine as release
@@ -49,7 +49,5 @@ FROM nginx:latest as serve
 
 ARG APP_DIR
 WORKDIR $APP_DIR
-
-RUN ls -l $APP_DIR/build
 
 COPY --from=release $APP_DIR/build/ /usr/share/nginx/html/
