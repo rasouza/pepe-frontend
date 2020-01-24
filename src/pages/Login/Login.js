@@ -6,6 +6,8 @@ import { css } from '@emotion/core';
 
 import { Card, Text, Heading } from '@sumup/circuit-ui';
 
+import { logUserIn, isUserLogged } from '../../services/AuthenticationService';
+
 import { ReactComponent as SumUpLogo } from '../../assets/logo.svg';
 
 const Container = styled('div')`
@@ -32,13 +34,23 @@ const LoginCard = styled(Card)`
 function Login() {
   const [isLogged, setLogged] = useState(false);
 
+  const responseGoogle = response => {
+    console.log(response);
+    logUserIn(response);
+    setLogged(isUserLogged());
+  };
+
   return (
     <Container>
       <Logo id="sumup-logo" />
       <LoginCard>
         <Heading size={Heading.KILO}>Pepe</Heading>
         <Text>Please sign in</Text>
-        <GoogleLogin></GoogleLogin>
+        <GoogleLogin
+          clientId="742141911640-kgm6h0as97ussri97a677tf6b569arqg.apps.googleusercontent.com"
+          onSuccess={responseGoogle}
+          onFailure={responseGoogle}
+        ></GoogleLogin>
       </LoginCard>
     </Container>
   );
