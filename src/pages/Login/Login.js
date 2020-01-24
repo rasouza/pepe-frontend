@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import GoogleLogin from 'react-google-login';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
+import { navigate } from '@reach/router';
 
 import { Card, Text, Heading } from '@sumup/circuit-ui';
 
+import { ROUTES_PATH } from '../../constants/routes';
 import { logUserIn, isUserLogged } from '../../services/AuthenticationService';
 
 import { ReactComponent as SumUpLogo } from '../../assets/logo.svg';
@@ -35,10 +37,15 @@ function Login() {
   const [isLogged, setLogged] = useState(false);
 
   const responseGoogle = response => {
-    console.log(response);
     logUserIn(response);
     setLogged(isUserLogged());
   };
+
+  useEffect(() => {
+    if (isLogged) {
+      navigate(ROUTES_PATH.HOME);
+    }
+  });
 
   return (
     <Container>
