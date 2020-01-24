@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-const ROUTES_PATH = {
+export const ROUTES_PATH = {
   LOGIN: '/login'
 };
 
-export { ROUTES_PATH as default };
+export default ROUTES_PATH;
