@@ -9,9 +9,10 @@ WORKDIR $APP_DIR
 
 COPY package.json ./
 COPY yarn.lock ./
-COPY src/ src/
 
 RUN ["yarn", "install"]
+
+COPY . .
 
 # Lints the code
 FROM node:$NODE_VERSION as linting
@@ -33,7 +34,7 @@ COPY --from=builder $APP_DIR/ .
 
 RUN ["yarn", "test", "--watchAll", "false"]
 
-# Release the app
+# Build the app
 FROM node:$NODE_VERSION-alpine as release
 
 ARG APP_DIR
@@ -41,6 +42,14 @@ WORKDIR $APP_DIR
 
 COPY --from=builder $APP_DIR/ .
 
-CMD ["yarn", "build"]
+RUN ["yarn", "build"]
 
+# Serve files with nginx
 FROM nginx:latest as serve
+
+ARG APP_DIR
+WORKDIR $APP_DIR
+
+RUN ls -l $APP_DIR/build
+
+COPY --from=release $APP_DIR/build/ /usr/share/nginx/html/
