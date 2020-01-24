@@ -41,4 +41,6 @@ WORKDIR $APP_DIR
 
 COPY --from=builder $APP_DIR/ .
 
-CMD ["yarn", "start"]
+CMD ["yarn", "build"]
+
+FROM nginx:latest as serve
