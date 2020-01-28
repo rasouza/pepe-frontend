@@ -28,16 +28,7 @@ describe('App', () => {
    */
   it('should show a title inside the card', () => {
     const { getByText } = renderApp();
-    const heading = getByText('Welcome to SumUp React', { selector: 'h2' });
+    const heading = getByText('PEPE', { selector: 'h1' });
     expect(heading).not.toBeNull();
-  });
-
-  /**
-   * For something like a logo, it might make sense to use a test-id
-   * data attribute.
-   */
-  it('should show the SumUp logo', () => {
-    const { queryByTestId } = renderApp();
-    expect(queryByTestId('sumup-logo')).toBeInTheDocument();
   });
 });

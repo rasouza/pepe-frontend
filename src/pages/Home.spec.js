@@ -13,9 +13,14 @@
  * limitations under the License.
  */
 
-export const ROUTES_PATH = {
-  HOME: '/',
-  LOGIN: '/login'
-};
+import React from 'react';
+import { render } from '@testing-library/react';
+import Home from './Home';
 
-export default ROUTES_PATH;
+describe('Home', () => {
+  it('says Hello', () => {
+    const { queryByText } = render(<Home />);
+
+    expect(queryByText('Hello')).toBeInTheDocument();
+  });
+});
