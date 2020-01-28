@@ -55,6 +55,7 @@ function Login() {
         <Text>Please sign in</Text>
         <GoogleLogin
           clientId="742141911640-kgm6h0as97ussri97a677tf6b569arqg.apps.googleusercontent.com"
+          hostedDomain="sumup.com"
           onSuccess={responseGoogle}
           onFailure={responseGoogle}
         ></GoogleLogin>
