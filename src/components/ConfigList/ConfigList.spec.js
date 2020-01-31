@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 
 import ConfigList from './ConfigList';
 
@@ -14,7 +15,7 @@ const mock = [
 describe('ConfigList', () => {
   // @TODO
   test.skip('should render with default styles', () => {
-    const actual = render(<ConfigList />);
+    const actual = renderer.create(<ConfigList />);
     expect(actual).toMatchSnapshot();
   });
 

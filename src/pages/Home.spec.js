@@ -19,7 +19,7 @@ import Home from './Home';
 
 describe('Home', () => {
   it('says Hello', () => {
-    const { queryByText } = render(<Home />);
+    const { queryByText } = create(<Home />);
 
     expect(queryByText('Hello')).toBeInTheDocument();
   });

@@ -13,8 +13,31 @@
  * limitations under the License.
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import ConfigList from '../components/ConfigList/ConfigList';
+import { all } from '../services/ConfigService';
 
-const Home = () => <p>Hello</p>;
+const Home = () => {
+    console.log(process.env)
+  const [configs, setConfigs] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data } = await all();
+      setConfigs(data);
+    };
+    fetchData();
+  });
+
+  return (
+    <>
+      <p>Hello</p>
+      <ConfigList
+        configs={configs}
+        onClickConfig={config => console.log(`Config clicked:`, config)}
+      />
+    </>
+  );
+};
 
 export default Home;

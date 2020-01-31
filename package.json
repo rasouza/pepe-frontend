@@ -7,9 +7,11 @@
     "@emotion/styled": "^10.0.10",
     "@reach/router": "^1.2.1",
     "@sumup/circuit-ui": "^1.6.0",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.0.2",
     "@testing-library/react": "^8.0.0",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
     "emotion-theming": "^10.0.10",
     "jest-emotion": "^10.0.27",
     "lodash": "^4.17.15",
@@ -45,7 +47,6 @@
   },
   "devDependencies": {
     "@sumup/foundry": "^1.7.0",
-    "jest-dom": "^3.4.0",
     "prop-types": "^15.7.2"
   }
 }
