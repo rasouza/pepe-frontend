@@ -10,9 +10,10 @@ import { Card, Text, Heading } from '@sumup/circuit-ui';
 import { ROUTES_PATH } from '../../constants/routes';
 import { logUserIn, isUserLogged } from '../../services/AuthenticationService';
 
-import { ReactComponent as SumUpLogo } from '../../assets/logo.svg';
+import { ReactComponent as SumUpLogo } from '../../assets/sumup-logo.svg';
 
 const Container = styled('div')`
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,10 +24,12 @@ const Container = styled('div')`
 
 const Logo = styled(SumUpLogo)`
   ${({ theme }) => css`
-    display: inline-block;
-    fill: ${theme.colors.white};
-    margin-bottom: 20px;
-  `}
+    color: ${theme.colors.n900};
+    fill: '#ffffff';
+    height: ${theme.iconSizes.giga};
+    width: inherit;
+    margin-bottom: 2rem;
+  `};
 `;
 
 const LoginCard = styled(Card)`
