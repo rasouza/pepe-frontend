@@ -2,7 +2,13 @@
  * Add custom Jest matchers for the DOM.
  * https://github.com/gnapse/jest-dom#table-of-contents
  */
-import 'jest-dom/extend-expect';
+import React from 'react';
+import '@testing-library/jest-dom/extend-expect';
+import { render } from '@testing-library/react';
+import { ThemeProvider } from 'emotion-theming';
+
+import { theme as themes } from '@sumup/circuit-ui';
+const { circuit } = themes;
 
 import serializer, { matchers } from 'jest-emotion';
 
@@ -23,3 +29,10 @@ expect.extend(matchers);
  * */
 // eslint-disable-next-line no-undef
 expect.addSnapshotSerializer(serializer);
+
+const WithProviders = ({ children }) => (
+    <ThemeProvider theme={circuit}>{children}</ThemeProvider>
+)
+
+global.render = (component, options) =>
+  render(component, { wrapper: WithProviders, ...options });

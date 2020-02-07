@@ -18,7 +18,6 @@ import ConfigList from '../components/ConfigList/ConfigList';
 import { all } from '../services/ConfigService';
 
 const Home = () => {
-    console.log(process.env)
   const [configs, setConfigs] = useState([]);
 
   useEffect(() => {
