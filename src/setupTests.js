@@ -31,8 +31,8 @@ expect.extend(matchers);
 expect.addSnapshotSerializer(serializer);
 
 const WithProviders = ({ children }) => (
-    <ThemeProvider theme={circuit}>{children}</ThemeProvider>
-)
+  <ThemeProvider theme={circuit}>{children}</ThemeProvider>
+);
 
 global.render = (component, options) =>
   render(component, { wrapper: WithProviders, ...options });
