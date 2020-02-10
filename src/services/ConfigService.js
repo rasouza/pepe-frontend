@@ -13,30 +13,10 @@
  * limitations under the License.
  */
 
-import React, { useState, useEffect } from 'react';
-import ConfigList from '../components/ConfigList/ConfigList';
-import { all } from '../services/ConfigService';
+import axios from 'axios';
 
-const Home = () => {
-  const [configs, setConfigs] = useState([]);
+const API_URL = process.env.REACT_APP_API_URL;
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const { data } = await all();
-      setConfigs(data);
-    };
-    fetchData();
-  });
+export const all = async () => axios.get(`${API_URL}configs`);
 
-  return (
-    <>
-      <p>Hello</p>
-      <ConfigList
-        configs={configs}
-        onClickConfig={config => console.log(`Config clicked:`, config)}
-      />
-    </>
-  );
-};
-
-export default Home;
+export const get = async id => axios.get(`${API_URL}configs/${id}`);

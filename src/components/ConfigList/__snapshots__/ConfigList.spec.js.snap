@@ -1,0 +1,1194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfigList should render with data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-14 {
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(12,15,20,0.02), 0 0 1px 0 rgba(12,15,20,0.06), 0 2px 2px 0 rgba(12,15,20,0.06);
+}
+
+.emotion-12 {
+  border-radius: 4px;
+}
+
+@media (max-width:767px) {
+  .emotion-12 {
+    height: unset;
+    margin-left: 145px;
+    overflow-x: auto;
+  }
+}
+
+.emotion-10 {
+  background-color: #FFFFFF;
+  border-collapse: separate;
+  width: 100%;
+}
+
+@media (max-width:767px) {
+  .emotion-10 {
+    margin-left: -145px;
+    width: calc(100% + 145px);
+  }
+
+  .emotion-10:after {
+    content: '';
+    background-image: linear-gradient( 90deg,rgba(0,0,0,0.12),transparent );
+    height: 100%;
+    left: 145px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+}
+
+.emotion-6 {
+  vertical-align: middle;
+}
+
+tbody .emotion-6:last-child th,
+tbody .emotion-6:last-child td {
+  border-bottom: none;
+}
+
+.emotion-0 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+@media (max-width:767px) {
+  .emotion-0 {
+    left: 0;
+    top: auto;
+    position: absolute;
+    width: 145px;
+    white-space: unset;
+  }
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+}
+
+@media (max-width:767px) {
+  .emotion-2 {
+    display: table-cell;
+    min-width: 145px;
+    white-space: unset;
+    width: 145px;
+  }
+}
+
+.emotion-4 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+.emotion-32 {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+tbody .emotion-32:last-child th,
+tbody .emotion-32:last-child td {
+  border-bottom: none;
+}
+
+tbody .emotion-32:hover td,
+tbody .emotion-32:hover th {
+  color: #3388FF;
+  background-color: #FAFBFC;
+}
+
+.emotion-26 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+}
+
+@media (max-width:767px) {
+  .emotion-26 {
+    left: 0;
+    top: auto;
+    position: absolute;
+    width: 145px;
+    white-space: unset;
+  }
+}
+
+.emotion-28 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: none;
+}
+
+@media (max-width:767px) {
+  .emotion-28 {
+    display: table-cell;
+    min-width: 145px;
+    white-space: unset;
+    width: 145px;
+  }
+}
+
+.emotion-30 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-14 emotion-15"
+      >
+        <div
+          class="emotion-12 emotion-13"
+        >
+          <table
+            class="emotion-10 emotion-11"
+          >
+            <thead
+              class="emotion-8 emotion-9"
+            >
+              <tr
+                class="emotion-6 emotion-7"
+              >
+                <th
+                  class="emotion-0 emotion-1"
+                  data-testid="table-header"
+                  scope="col"
+                >
+                  Key
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-2 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  Key
+                </td>
+                <th
+                  class="emotion-4 emotion-1"
+                  data-testid="table-header"
+                  scope="col"
+                >
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="emotion-14 emotion-15"
+      >
+        <div
+          class="emotion-12 emotion-13"
+        >
+          <table
+            class="emotion-10 emotion-11"
+          >
+            <thead
+              class="emotion-8 emotion-9"
+            >
+              <tr
+                class="emotion-6 emotion-7"
+              >
+                <th
+                  class="emotion-0 emotion-1"
+                  data-testid="table-header"
+                  scope="col"
+                >
+                  Key
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-2 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  Key
+                </td>
+                <th
+                  class="emotion-4 emotion-1"
+                  data-testid="table-header"
+                  scope="col"
+                >
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="emotion-32 emotion-7"
+                data-testid="table-row"
+              >
+                <th
+                  class="emotion-26 emotion-1"
+                  data-testid="table-header"
+                  scope="row"
+                >
+                  key1
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-28 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  key1
+                </td>
+                <td
+                  class="emotion-30 emotion-3"
+                  data-testid="table-cell"
+                >
+                  1
+                </td>
+              </tr>
+              <tr
+                class="emotion-32 emotion-7"
+                data-testid="table-row"
+              >
+                <th
+                  class="emotion-26 emotion-1"
+                  data-testid="table-header"
+                  scope="row"
+                >
+                  key2
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-28 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  key2
+                </td>
+                <td
+                  class="emotion-30 emotion-3"
+                  data-testid="table-cell"
+                >
+                  2
+                </td>
+              </tr>
+              <tr
+                class="emotion-32 emotion-7"
+                data-testid="table-row"
+              >
+                <th
+                  class="emotion-26 emotion-1"
+                  data-testid="table-header"
+                  scope="row"
+                >
+                  key2.subkey1
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-28 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  key2.subkey1
+                </td>
+                <td
+                  class="emotion-30 emotion-3"
+                  data-testid="table-cell"
+                >
+                  easter-egg
+                </td>
+              </tr>
+              <tr
+                class="emotion-32 emotion-7"
+                data-testid="table-row"
+              >
+                <th
+                  class="emotion-26 emotion-1"
+                  data-testid="table-header"
+                  scope="row"
+                >
+                  key3
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-28 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  key3
+                </td>
+                <td
+                  class="emotion-30 emotion-3"
+                  data-testid="table-cell"
+                >
+                  tres
+                </td>
+              </tr>
+              <tr
+                class="emotion-32 emotion-7"
+                data-testid="table-row"
+              >
+                <th
+                  class="emotion-26 emotion-1"
+                  data-testid="table-header"
+                  scope="row"
+                >
+                  key3.subkey1
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-28 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  key3.subkey1
+                </td>
+                <td
+                  class="emotion-30 emotion-3"
+                  data-testid="table-cell"
+                >
+                  4
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-54 {
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(12,15,20,0.02), 0 0 1px 0 rgba(12,15,20,0.06), 0 2px 2px 0 rgba(12,15,20,0.06);
+}
+
+.emotion-52 {
+  border-radius: 4px;
+}
+
+@media (max-width:767px) {
+  .emotion-52 {
+    height: unset;
+    margin-left: 145px;
+    overflow-x: auto;
+  }
+}
+
+.emotion-50 {
+  background-color: #FFFFFF;
+  border-collapse: separate;
+  width: 100%;
+}
+
+@media (max-width:767px) {
+  .emotion-50 {
+    margin-left: -145px;
+    width: calc(100% + 145px);
+  }
+
+  .emotion-50:after {
+    content: '';
+    background-image: linear-gradient( 90deg,rgba(0,0,0,0.12),transparent );
+    height: 100%;
+    left: 145px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+}
+
+.emotion-6 {
+  vertical-align: middle;
+}
+
+tbody .emotion-6:last-child th,
+tbody .emotion-6:last-child td {
+  border-bottom: none;
+}
+
+.emotion-0 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+@media (max-width:767px) {
+  .emotion-0 {
+    left: 0;
+    top: auto;
+    position: absolute;
+    width: 145px;
+    white-space: unset;
+  }
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+}
+
+@media (max-width:767px) {
+  .emotion-2 {
+    display: table-cell;
+    min-width: 145px;
+    white-space: unset;
+    width: 145px;
+  }
+}
+
+.emotion-4 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+.emotion-16 {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+tbody .emotion-16:last-child th,
+tbody .emotion-16:last-child td {
+  border-bottom: none;
+}
+
+tbody .emotion-16:hover td,
+tbody .emotion-16:hover th {
+  color: #3388FF;
+  background-color: #FAFBFC;
+}
+
+.emotion-10 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+}
+
+@media (max-width:767px) {
+  .emotion-10 {
+    left: 0;
+    top: auto;
+    position: absolute;
+    width: 145px;
+    white-space: unset;
+  }
+}
+
+.emotion-12 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: none;
+}
+
+@media (max-width:767px) {
+  .emotion-12 {
+    display: table-cell;
+    min-width: 145px;
+    white-space: unset;
+    width: 145px;
+  }
+}
+
+.emotion-14 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+<div>
+    <div
+      class="emotion-54 emotion-55"
+    >
+      <div
+        class="emotion-52 emotion-53"
+      >
+        <table
+          class="emotion-50 emotion-51"
+        >
+          <thead
+            class="emotion-8 emotion-9"
+          >
+            <tr
+              class="emotion-6 emotion-7"
+            >
+              <th
+                class="emotion-0 emotion-1"
+                data-testid="table-header"
+                scope="col"
+              >
+                Key
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-2 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                Key
+              </td>
+              <th
+                class="emotion-4 emotion-1"
+                data-testid="table-header"
+                scope="col"
+              >
+                Value
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="emotion-16 emotion-7"
+              data-testid="table-row"
+            >
+              <th
+                class="emotion-10 emotion-1"
+                data-testid="table-header"
+                scope="row"
+              >
+                key1
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-12 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                key1
+              </td>
+              <td
+                class="emotion-14 emotion-3"
+                data-testid="table-cell"
+              >
+                1
+              </td>
+            </tr>
+            <tr
+              class="emotion-16 emotion-7"
+              data-testid="table-row"
+            >
+              <th
+                class="emotion-10 emotion-1"
+                data-testid="table-header"
+                scope="row"
+              >
+                key2
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-12 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                key2
+              </td>
+              <td
+                class="emotion-14 emotion-3"
+                data-testid="table-cell"
+              >
+                2
+              </td>
+            </tr>
+            <tr
+              class="emotion-16 emotion-7"
+              data-testid="table-row"
+            >
+              <th
+                class="emotion-10 emotion-1"
+                data-testid="table-header"
+                scope="row"
+              >
+                key2.subkey1
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-12 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                key2.subkey1
+              </td>
+              <td
+                class="emotion-14 emotion-3"
+                data-testid="table-cell"
+              >
+                easter-egg
+              </td>
+            </tr>
+            <tr
+              class="emotion-16 emotion-7"
+              data-testid="table-row"
+            >
+              <th
+                class="emotion-10 emotion-1"
+                data-testid="table-header"
+                scope="row"
+              >
+                key3
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-12 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                key3
+              </td>
+              <td
+                class="emotion-14 emotion-3"
+                data-testid="table-cell"
+              >
+                tres
+              </td>
+            </tr>
+            <tr
+              class="emotion-16 emotion-7"
+              data-testid="table-row"
+            >
+              <th
+                class="emotion-10 emotion-1"
+                data-testid="table-header"
+                scope="row"
+              >
+                key3.subkey1
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-12 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                key3.subkey1
+              </td>
+              <td
+                class="emotion-14 emotion-3"
+                data-testid="table-cell"
+              >
+                4
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ConfigList should render with default styles 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-14 {
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(12,15,20,0.02), 0 0 1px 0 rgba(12,15,20,0.06), 0 2px 2px 0 rgba(12,15,20,0.06);
+}
+
+.emotion-12 {
+  border-radius: 4px;
+}
+
+@media (max-width:767px) {
+  .emotion-12 {
+    height: unset;
+    margin-left: 145px;
+    overflow-x: auto;
+  }
+}
+
+.emotion-10 {
+  background-color: #FFFFFF;
+  border-collapse: separate;
+  width: 100%;
+}
+
+@media (max-width:767px) {
+  .emotion-10 {
+    margin-left: -145px;
+    width: calc(100% + 145px);
+  }
+
+  .emotion-10:after {
+    content: '';
+    background-image: linear-gradient( 90deg,rgba(0,0,0,0.12),transparent );
+    height: 100%;
+    left: 145px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+}
+
+.emotion-6 {
+  vertical-align: middle;
+}
+
+tbody .emotion-6:last-child th,
+tbody .emotion-6:last-child td {
+  border-bottom: none;
+}
+
+.emotion-0 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+@media (max-width:767px) {
+  .emotion-0 {
+    left: 0;
+    top: auto;
+    position: absolute;
+    width: 145px;
+    white-space: unset;
+  }
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+}
+
+@media (max-width:767px) {
+  .emotion-2 {
+    display: table-cell;
+    min-width: 145px;
+    white-space: unset;
+    width: 145px;
+  }
+}
+
+.emotion-4 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-14 emotion-15"
+      >
+        <div
+          class="emotion-12 emotion-13"
+        >
+          <table
+            class="emotion-10 emotion-11"
+          >
+            <thead
+              class="emotion-8 emotion-9"
+            >
+              <tr
+                class="emotion-6 emotion-7"
+              >
+                <th
+                  class="emotion-0 emotion-1"
+                  data-testid="table-header"
+                  scope="col"
+                >
+                  Key
+                </th>
+                <td
+                  aria-hidden="true"
+                  class="emotion-2 emotion-3"
+                  data-testid="table-cell"
+                  role="presentation"
+                >
+                  Key
+                </td>
+                <th
+                  class="emotion-4 emotion-1"
+                  data-testid="table-header"
+                  scope="col"
+                >
+                  Value
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-14 {
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(12,15,20,0.02), 0 0 1px 0 rgba(12,15,20,0.06), 0 2px 2px 0 rgba(12,15,20,0.06);
+}
+
+.emotion-12 {
+  border-radius: 4px;
+}
+
+@media (max-width:767px) {
+  .emotion-12 {
+    height: unset;
+    margin-left: 145px;
+    overflow-x: auto;
+  }
+}
+
+.emotion-10 {
+  background-color: #FFFFFF;
+  border-collapse: separate;
+  width: 100%;
+}
+
+@media (max-width:767px) {
+  .emotion-10 {
+    margin-left: -145px;
+    width: calc(100% + 145px);
+  }
+
+  .emotion-10:after {
+    content: '';
+    background-image: linear-gradient( 90deg,rgba(0,0,0,0.12),transparent );
+    height: 100%;
+    left: 145px;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+}
+
+.emotion-6 {
+  vertical-align: middle;
+}
+
+tbody .emotion-6:last-child th,
+tbody .emotion-6:last-child td {
+  border-bottom: none;
+}
+
+.emotion-0 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+@media (max-width:767px) {
+  .emotion-0 {
+    left: 0;
+    top: auto;
+    position: absolute;
+    width: 145px;
+    white-space: unset;
+  }
+}
+
+.emotion-2 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+}
+
+@media (max-width:767px) {
+  .emotion-2 {
+    display: table-cell;
+    min-width: 145px;
+    white-space: unset;
+    width: 145px;
+  }
+}
+
+.emotion-4 {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 24px;
+  text-align: left;
+  -webkit-transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+  white-space: nowrap;
+  color: #5C656F;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 24px;
+  vertical-align: middle;
+}
+
+<div>
+    <div
+      class="emotion-14 emotion-15"
+    >
+      <div
+        class="emotion-12 emotion-13"
+      >
+        <table
+          class="emotion-10 emotion-11"
+        >
+          <thead
+            class="emotion-8 emotion-9"
+          >
+            <tr
+              class="emotion-6 emotion-7"
+            >
+              <th
+                class="emotion-0 emotion-1"
+                data-testid="table-header"
+                scope="col"
+              >
+                Key
+              </th>
+              <td
+                aria-hidden="true"
+                class="emotion-2 emotion-3"
+                data-testid="table-cell"
+                role="presentation"
+              >
+                Key
+              </td>
+              <th
+                class="emotion-4 emotion-1"
+                data-testid="table-header"
+                scope="col"
+              >
+                Value
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
