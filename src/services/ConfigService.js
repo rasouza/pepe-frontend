@@ -21,4 +21,5 @@ export const all = async () => axios.get(`${API_URL}configs`);
 
 export const get = async path => axios.get(`${API_URL}configs?path=${path}`);
 
-export const patch = async (path, value) => axios.patch(`${API_URL}configs?path=${path}`, value);
+export const patch = async (path, value) =>
+  axios.patch(`${API_URL}configs?path=${path}`, value);
