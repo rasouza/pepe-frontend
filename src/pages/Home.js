@@ -17,16 +17,19 @@ import React, { useState, useEffect } from 'react';
 import ConfigList from '../components/ConfigList/ConfigList';
 import { all } from '../services/ConfigService';
 
+const configObjectToList = configs =>
+  Object.keys(configs).map(key => [key, JSON.stringify(configs[key])]);
+
 const Home = () => {
   const [configs, setConfigs] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const { data } = await all();
-      setConfigs(data);
+      setConfigs(configObjectToList(data));
     };
     fetchData();
-  });
+  }, []);
 
   return (
     <>

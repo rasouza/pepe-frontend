@@ -19,4 +19,7 @@ const API_URL = process.env.REACT_APP_API_URL;
 
 export const all = async () => axios.get(`${API_URL}configs`);
 
-export const get = async id => axios.get(`${API_URL}configs/${id}`);
+export const get = async path => axios.get(`${API_URL}configs?path=${path}`);
+
+export const patch = async (path, value) =>
+  axios.patch(`${API_URL}configs?path=${path}`, value);
